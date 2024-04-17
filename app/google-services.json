@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21327803412",
+    "project_id": "mrreddy-7920",
+    "storage_bucket": "mrreddy-7920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21327803412:android:b0e8a1cd6947f58ceca301",
+        "android_client_info": {
+          "package_name": "com.microsoft.databaseconnected"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-7JFcF9UeC6gj1iiDs3crLV_oUuquuz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
