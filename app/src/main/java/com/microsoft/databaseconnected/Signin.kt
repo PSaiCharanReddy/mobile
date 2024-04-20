@@ -22,7 +22,7 @@ class Signin : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signin)
         var signinbutton=findViewById<Button>(R.id.signinbutton)
-        var username=findViewById<TextInputLayout>(R.id.usrforsignin)
+        var username=findViewById<TextInputEditText>(R.id.usrforsignin)
 
         val signup=findViewById<TextView>(R.id.signup)
         signup.setOnClickListener(){
@@ -31,7 +31,8 @@ class Signin : AppCompatActivity() {
         }
         signinbutton.setOnClickListener{
             //take ref till users
-            val name=username.toString()
+            val name = username.text.toString()
+            Toast.makeText(this," "+name,Toast.LENGTH_LONG).show()
             if(name.isNotEmpty()){
                 readData(name) 
 
